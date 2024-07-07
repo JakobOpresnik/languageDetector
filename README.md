@@ -1,4 +1,4 @@
-# LANGUAGE IDENTIFIER
+# LANGUAGE DETECTOR
 
 Language model developed for detecting/identifying language based on building language profiles from character ***N***-grams, where only 300 of the most frequent ***N***-grams were used for calculating the distance between their corresponding pairs during the process of comparing language profiles before the final classification.
 
