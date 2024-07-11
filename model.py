@@ -313,14 +313,14 @@ CHARACTER N-GRAM BASED TEXT CLASSIFICATION FOR THE FOLLOWING LANGUAGES:
     loaded_de_lang_profile: Dict[str, int] = read_language_profile("de_profile.txt")
     loaded_si_lang_profile: Dict[str, int] = read_language_profile("si_profile.txt")
     loaded_es_lang_profile: Dict[str, int] = read_language_profile("es_profile.txt")
-    Loaded_hr_lang_profile: Dict[str, int] = read_language_profile("hr_profile.txt")
+    loaded_hr_lang_profile: Dict[str, int] = read_language_profile("hr_profile.txt")
 
     combined_lang_profiles: Dict[str, Dict[str, int]] = {
         "ENGLISH": loaded_en_lang_profile,
         "GERMAN": loaded_de_lang_profile,
         "SLOVENE": loaded_si_lang_profile,
         "SPANISH": loaded_es_lang_profile,
-        "CROATIAN": Loaded_hr_lang_profile
+        "CROATIAN": loaded_hr_lang_profile
     }
 
     test_data_file: str = "test_data.txt"
